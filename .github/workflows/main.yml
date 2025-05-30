@@ -29,7 +29,7 @@ jobs:
         
 
       - name: Generate test data
-        run: python scripts/generate_test_data.py
+        run: python generate_test_data.py
 
       - name: Train realistic model
         run: python create_realistic_model.py
